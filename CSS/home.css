@@ -1,0 +1,14 @@
+.opp {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  height: 70px;
+}
+
+.web-mark {
+  text-align: start;
+}
