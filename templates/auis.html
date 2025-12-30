@@ -39,11 +39,10 @@
     </div>
     <div class="bom" id="45tr"></div>
     <div class="op">
-      <input
-        id="youInput"
-        placeholder="아이디어를 공유."
-        onkeydown="if(event.key==='Enter') youC(); if(event.key==='Shift'+'Enter') brE();"
-      />
+     <textarea id="youInput" 
+  onkeydown="if(event.shiftKey && event.key === 'Enter') brE(); else if(event.key === 'Enter') youC(); { event.preventDefault(); send(); }" 
+  placeholder="내용을 입력하세요..." 
+  style="width: 100%; height: 40px; resize: none;"></textarea>
       <button type="button" onclick="youC()" class="div1">보내기</button>
     </div>
     <script src="{{ url_for('static', filename='JS/input.js') }}"></script>
