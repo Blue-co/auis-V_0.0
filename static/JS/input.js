@@ -15,8 +15,3 @@ function youC() {
   document.getElementById('youInput').value = '';
   scrollToBottom();
 }
-
-function youCRemove() {
-  document.getElementById('45tr').innerHTML = '';
-  localStorage.removeItem('ideas');
-}
