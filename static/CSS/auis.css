@@ -207,7 +207,7 @@ textarea:hover {
     width: 97%;
     height: 680px;
   }
-  input {
+  textarea {
     width: 60%;
   }
   /* 모바일에서 버튼 숨기고 스와이프 활성화 */
