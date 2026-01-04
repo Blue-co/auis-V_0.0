@@ -252,6 +252,7 @@ textarea:hover {
   .card {
     width: 25px;
     height: 25px;
+    margin-top: 22px;
     border-radius: 50px;
     position: absolute;
     top: 0;
