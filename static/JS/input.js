@@ -17,6 +17,12 @@ function youC() {
 }
 
 function brE() {
-  const text = document.getElementById('youInput');
-  text.innerHTML = '<br>';
+  const inputField = document.getElementById('youInput');
+  
+  // 현재 입력된 값에 줄바꿈 문자(\n)를 추가합니다.
+  inputField.value += '\n';
+  
+  // 기본 엔터 동작(줄바꿈 후 다음 줄로 넘어가는 등)을 방지하고 싶다면 
+  // event.preventDefault()가 필요할 수 있습니다.
 }
+
