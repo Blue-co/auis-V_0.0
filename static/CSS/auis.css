@@ -58,6 +58,8 @@ textarea {
   background-color: #000000;
   color: blue;
   border: 5px solid #66cdaa;
+  width: 87%;
+  height: 30px;
   border-radius: 8px;
   margin: 0 0 0 6px;
 }
@@ -204,6 +206,10 @@ textarea:hover {
   .bom {
     width: 97%;
     height: 680px;
+  }
+  textarea {
+    width: 78%
+    height: 20px;
   }
   /* 모바일에서 버튼 숨기고 스와이프 활성화 */
   .chat-bubble_button-box {
