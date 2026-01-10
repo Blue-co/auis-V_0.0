@@ -36,7 +36,7 @@ body {
   padding: 1px;
 }
 
-.menu-a:hover {
+.menu-a:nth-of-type(1):hover {
   text-align: center;
   color: #4169e1;
   font-size: 20.5px;
