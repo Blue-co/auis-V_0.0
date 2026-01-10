@@ -48,6 +48,10 @@ body {
   height: 8px;
   border-radius: 50px;
   padding-right: 100px;
+
+  .op {
+     display: none;
+  }
 }
 
 
