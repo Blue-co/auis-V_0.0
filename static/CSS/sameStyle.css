@@ -37,6 +37,7 @@ body {
 }
 
 .menu-a:hover {
+  text-align: cender;
   color: #4169e1;
   font-size: 20.5px;
   transition: 0.3s;
@@ -47,7 +48,8 @@ body {
   border: 1px solid #1b1d25;
   border-radius: 26px;
   height: 28px;
-  width: 50%;
+  padding-left: 30p;
+  padding-left: 30px;
   position: absolute;
   top: 0;
   text-align: center;
