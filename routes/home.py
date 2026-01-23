@@ -4,4 +4,4 @@ home_bp = Blueprint('home', __name__)
 
 @shopping_bp.route('/home')
 def shopping_list():
-    return render_template('home.html')
+    return render_template('hm.html')
