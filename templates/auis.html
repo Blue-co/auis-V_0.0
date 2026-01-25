@@ -15,16 +15,7 @@
     <div class="op">
       <textarea id="youInput" 
   style="resize: none; overflow-y: hidden;"
-  onkeydown="
-    if (event.key === 'Enter' && !event.shiftKey) { 
-      event.preventDefault(); 
-      send(); 
-    }
-  " 
-  oninput="
-    this.style.height = 'auto'; 
-    this.style.height = this.scrollHeight + 'px';
-  "
+  onkeydown="if(event.shiftKey && event.key === 'Enter') brE();"
   placeholder="아이디어를 공유하세요..."></textarea>
      <div id="div1" onclick="youC()">보내기</div>
     </div>
