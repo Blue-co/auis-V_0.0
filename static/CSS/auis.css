@@ -109,12 +109,12 @@ textarea:hover {
 @media (max-width: 550px) and (min-width: 300px) {
   .op {
     position: absolute;
-    top: 500px;
+    top: 620px;
     width: 92%;
   }
   .bom {
     width: 97%;
-    height: 480px;
+    height: 640px;
   }
   textarea {
     width: 75%;
