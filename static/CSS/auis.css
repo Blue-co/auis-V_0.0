@@ -6,7 +6,6 @@
   height: 42px;
   margin: 20px 0px;
   position: absolute;
-  /*710px*/
   top: 710px;
   padding: 1px;
 }
@@ -108,13 +107,6 @@ textarea:hover {
   color: #7cfc00;
 }
 @media (max-width: 550px) and (min-width: 300px) {
-  .opp {
-    display: inline;
-    width: 80%;
-    height: 25px;
-    position: absolute;
-    left: 50px;
-  }
   .op {
     position: absolute;
     top: 400px;
