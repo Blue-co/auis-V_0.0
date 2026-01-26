@@ -116,14 +116,14 @@ textarea:hover {
     height: 600px;
   }
   textarea {
-    width: 75%;
+    width: 7%;
     height: 20px;
-    margin: 4px 8px 0 0;
+    margin: 4px 0 0 4px;
   }
   .div1{
     width: 30px;
     height: 30px;
-    margin: 4px 8px 1px 0;
+    margin: 4px 0 1px 20px;
   }
   /* 모바일에서 버튼 숨기고 스와이프 활성화 */
   .chat-bubble_button-box {
