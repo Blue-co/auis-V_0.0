@@ -30,7 +30,7 @@
   background: #121319;
   color: #fff;
   margin-left: auto;
-  margin-right: 0;
+  margin-right: 10px;
 }
 
 .chat-bubble.other {
@@ -38,7 +38,7 @@
   background: #222a36;
   color: #fff;
   margin-right: auto;
-  margin-left: 0;
+  margin-left: 10pc;
 }
 
 .chat-bubble_button-box {
