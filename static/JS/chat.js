@@ -1,8 +1,9 @@
+// 입력한 매시지를 저장하는 함수를 선언합니다.
 function loadStoredIdea() {
-  const savedIdea = localStorage.getItem('ideas');
+  const savedIdea = localStorage.getItem('ideas'); // localStorage를 통하여 ideas라는 항목을 불릅니다.
   if (savedIdea) {
-    const idArray = JSON.parse(savedIdea);
-    document.getElementById('45tr').innerHTML = idArray
+    const idArray = JSON.parse(savedIdea); // idArray라는 항목을 만듭니다.
+    document.getElementById('45tr').innerHTML = idArray // 방금 만든 idArray라는 항목을 채팅창에 모두 불러와줍니다.
       .map(
         (item, idx) =>
           `<div class='chat-bubble user' data-idx='${idx}'><div class='chat-pront'>${item.replace(
@@ -55,12 +56,15 @@ function loadStoredIdea() {
 
             // 스와이프 방향에 따라 시각적 피드백
             if (dx > 30) {
+              // 수정 방향
               bubble.classList.add('swipe-left');
               bubble.classList.remove('swipe-right');
             } else if (dx < -30) {
+              // 삭제 방향
               bubble.classList.add('swipe-right');
               bubble.classList.remove('swipe-left');
             } else {
+              // 아무것도 수행 못한 상태
               bubble.classList.remove('swipe-right', 'swipe-left');
             }
           }
